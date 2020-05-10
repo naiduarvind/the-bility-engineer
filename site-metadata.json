@@ -6,7 +6,7 @@
   "header": {
     "title": "The *bility Engineer",
     "tagline": "All things reliability, scalability, maintainability, etc.",
-    "profile_img": "images/avatar.png",
+    "profile_img": "/images/profile-picture.jpg",
     "background": "dark",
     "has_nav": true,
     "nav_links": [
