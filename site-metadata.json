@@ -1,11 +1,11 @@
 {
   "title": "The *bility Engineer",
-  "description": "Personal blogging theme for Stackbit",
-  "layout_style": "simple",
+  "description": "",
+  "layout_style": "overflow",
   "palette": "blue",
   "header": {
     "title": "The *bility Engineer",
-    "tagline": "Header Tagline",
+    "tagline": "reliability, scalability, maintainability",
     "profile_img": "images/avatar.png",
     "background": "dark",
     "has_nav": true,
