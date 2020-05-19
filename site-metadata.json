@@ -13,7 +13,8 @@
       {
         "label": "Home",
         "url": "/",
-        "type": "link"
+        "type": "link",
+        "icon_class": "balance-scale"
       },
       {
         "label": "Blog",
