@@ -16,7 +16,7 @@ sections:
       with a team of high performing engineers. Arvind also provides pro-bono
       consultations to a few reputable firms in Silicon Valley. Arvind focuses
       primarily on reliability, maintainability, and scalability of engineering
-      all around by approaching / adopting and adapting good practises.
+      all around by approaching, adopting and adapting good practises.
     actions:
       - label: Contact Me
         url: /contact
