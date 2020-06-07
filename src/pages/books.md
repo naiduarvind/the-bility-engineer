@@ -30,5 +30,19 @@ sections:
     title: "Refactoring Database (Status: Done)"
     section_id: refactoring-databases
     content: '![](/images/refactoring-databases.png "Refactoring Databases")'
+  - type: section_content
+    title: "Optimizing Java (Status: Done)"
+    section_id: optimizing-java
+    content: '![](/images/optimizing-java.png "Optimizing Java")'
+  - type: section_content
+    title: "Java Performance: The Definitive Guide (Status: Done)"
+    section_id: java-performance-the-definitive-guide
+    content: '![](/images/java-performance-the-definitive-guide.png "Java
+      Performance: The Definitive Guide")'
+  - type: section_content
+    title: "Designing Distributed Systems (Status: Done)"
+    section_id: designing-distributed-systems
+    content: '![](/images/rsz_designing-distributed-systems.png "Designing
+      Distributed Systems")'
 template: advanced
 ---
