@@ -13,6 +13,10 @@ sections:
     title: "Team Topologies (Status: In Progress)"
     section_id: team-topologies
   - type: section_content
+    title: Hands on Scala
+    section_id: hands-on-scala
+    content: '![](/images/rsz_hands-on-scala.png "Hands on Scala")'
+  - type: section_content
     title: "Database Reliability Engineering (Status: Done)"
     section_id: database-reliability-engineering
     content: '![](/images/database-reliability-engineering.png "Database Reliability
@@ -22,5 +26,9 @@ sections:
     section_id: accelerate
     image: ""
     content: '![](/images/accelerate.png "Accelerate")'
+  - type: section_content
+    title: "Refactoring Database (Status: Done)"
+    section_id: refactoring-databases
+    content: '![](/images/refactoring-databases.png "Refactoring Databases")'
 template: advanced
 ---
