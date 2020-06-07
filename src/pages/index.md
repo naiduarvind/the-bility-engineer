@@ -23,7 +23,7 @@ sections:
         type: button
   - type: section_posts
     title: Recent Posts
-    section_id: blog-posts
+    section_id: recent-posts
     posts_number: 4
     actions:
       - label: View Blog
