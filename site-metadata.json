@@ -47,6 +47,12 @@
       {
         "type": "link",
         "new_window": true,
+        "label": "Jira",
+        "url": "https://thebilityengineer.atlassian.net/secure/RapidBoard.jspa?projectKey=TBE"
+      },
+      {
+        "type": "link",
+        "new_window": true,
         "label": "Resume",
         "url": "https://resume.thebility.engineer"
       },
