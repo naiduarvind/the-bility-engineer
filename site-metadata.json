@@ -17,24 +17,38 @@
         "icon_class": "balance-scale"
       },
       {
-        "label": "Blog",
-        "url": "/blog/",
-        "type": "link"
-      },
-      {
-        "label": "Style Guide",
-        "url": "/style-guide/",
-        "type": "link"
-      },
-      {
         "label": "About",
         "url": "/about/",
         "type": "link"
       },
       {
+        "label": "Blog",
+        "url": "/blog/",
+        "type": "link"
+      },
+      {
+        "type": "link",
+        "new_window": false,
+        "label": "Books",
+        "url": "/books/"
+      },
+      {
+        "type": "link",
+        "new_window": true,
+        "label": "Library",
+        "url": "/library/"
+      },
+      {
+        "type": "link",
+        "new_window": false,
+        "label": "Podcasts",
+        "url": "/podcasts/"
+      },
+      {
         "label": "Contact",
         "url": "/contact/",
-        "type": "link"
+        "type": "link",
+        "new_window": false
       }
     ],
     "has_social": true,
