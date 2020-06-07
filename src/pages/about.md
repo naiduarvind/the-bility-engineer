@@ -1,16 +1,13 @@
 ---
 title: About Me
-subtitle: This is a short page about me and my work.
-img_path: images/about.jpg
+subtitle: A short page on my preferred biography for technical endeavours.
+img_path: /images/about-me.jpg
 template: page
 ---
+**Arvind Naidu** is the Head of Engineering in Mindvalley from [](https://en.wikipedia.org/wiki/Stockholm)[Kuala Lumpur](https://en.wikipedia.org/wiki/Kuala_Lumpur), Malaysia. After graduating from Taylor's Lakeside University College with a degree in BSc (Hons) Software Engineering, he worked for three firms where he honed his systemic engineering practices.
 
-**John Doe** is a Senior Art Director from [Stockholm](https://en.wikipedia.org/wiki/Stockholm), Sweden. After graduating from The College of Visual Arts with a degree in Communication Design, he worked for three small graphic design shops where he honed his design style and sensibility.
+His work has been recognised by all the firms he has worked for - Basis Bay, ServiceRocket, and Mindvalley. Many has regarded him as the person that truly goes by the following principle:
 
-His work has been recognized by Communication Arts, Print, How, ID, IdN, AIGA, Effie, Archive, Graphis, AdFed and Rockport. Graphic Design USA named him a person to watch in 2019.
+> Adoption is the best form of flattery.
 
->The world always seems brighter when you’ve just made something that wasn’t there before. <cite>Neil Gaiman</cite>
-
-As a hobby, John Doe authors the most influential design blog in Sweden with over 100,000 page views a month. He lives in Stockholm with his beautiful wife and two boys.
-
-*Thank You for reading!*
+As a hobby, Arvind Naidu professional races for a team based in New Zealand that allows him to travel across the globe. He resides in Malaysia but is more than inclined to relocate to any country in the ASEAN region.
