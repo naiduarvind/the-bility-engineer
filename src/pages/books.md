@@ -27,7 +27,7 @@ sections:
     image: ""
     content: '![](/images/accelerate.png "Accelerate")'
   - type: section_content
-    title: "Refactoring Database (Status: Done)"
+    title: "Refactoring Databases (Status: Done)"
     section_id: refactoring-databases
     content: '![](/images/refactoring-databases.png "Refactoring Databases")'
   - type: section_content
