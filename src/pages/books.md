@@ -6,21 +6,21 @@ sections:
   - type: section_content
     title: "Model Driven SWE in Practice (Status: In Progress)"
     section_id: model-driven-software-engineering-in-practice
-    content: '![](/images/model-drive-software-engineering-in-practice.jpg "Model
-      Driven Software Engineering in Practice")'
+    content: '![](/images/rsz_model-drive-software-engineering-in-practice.png
+      "Model Driven Software Engineering in Practice")'
   - type: section_content
-    content: '![](/images/rsz_team-topologies.jpg "Team Topologies")'
+    content: '![](/images/rsz_3team-topologies.png "Team Topologies")'
     title: "Team Topologies (Status: In Progress)"
     section_id: team-topologies
   - type: section_content
     title: "Database Reliability Engineering (Status: Done)"
     section_id: database-reliability-engineering
-    content: '![](/images/database-reliability-engineering.jpg "Database Reliability
+    content: '![](/images/database-reliability-engineering.png "Database Reliability
       Engineering")'
   - type: section_content
     title: "Accelerate (Status: Done)"
     section_id: accelerate
     image: ""
-    content: '![](/images/accelerate.jpg "Accelerate")'
+    content: '![](/images/accelerate.png "Accelerate")'
 template: advanced
 ---
