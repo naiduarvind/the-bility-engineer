@@ -4,7 +4,7 @@ hide_title: false
 excerpt: A collection of the books I have read with personal reviews and notes.
 sections:
   - type: section_content
-    title: "Model Driven Software Engineering in Practice (Status: In Progress)"
+    title: "Model Driven SWE in Practice (Status: In Progress)"
     section_id: model-driven-software-engineering-in-practice
     content: '![](/images/model-drive-software-engineering-in-practice.jpg "Model
       Driven Software Engineering in Practice")'
