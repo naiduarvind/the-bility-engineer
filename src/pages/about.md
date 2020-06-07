@@ -10,4 +10,4 @@ His work has been recognised by all the firms he has worked for - Basis Bay, Ser
 
 > Adoption is the best form of flattery.
 
-As a hobby, Arvind Naidu professional races for a team based in New Zealand that allows him to travel across the globe. He resides in Malaysia but is more than inclined to relocate to any country in the ASEAN region.
+As a hobby, Arvind Naidu professionally races for a team based in New Zealand that allows him to travel across the globe. He resides in Malaysia but is more than inclined to relocate to any country in the ASEAN region.
