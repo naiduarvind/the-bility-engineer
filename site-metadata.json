@@ -45,6 +45,12 @@
         "url": "/podcasts/"
       },
       {
+        "type": "link",
+        "new_window": true,
+        "label": "Resume",
+        "url": "https://resume.thebility.engineer"
+      },
+      {
         "label": "Contact",
         "url": "/contact/",
         "type": "link",
