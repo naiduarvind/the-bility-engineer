@@ -9,7 +9,7 @@ sections:
     content: '![](/images/model-drive-software-engineering-in-practice.jpg "Model
       Driven Software Engineering in Practice")'
   - type: section_content
-    content: '![](/images/team-topologies.jpg "Team Topologies")'
+    content: '![](/images/rsz_team-topologies.jpg "Team Topologies")'
     title: "Team Topologies (Status: In Progress)"
     section_id: team-topologies
   - type: section_content
