@@ -35,7 +35,7 @@
       {
         "type": "link",
         "new_window": true,
-        "label": "Library",
+        "label": "Library [WIP]",
         "url": "/library/"
       },
       {
@@ -47,7 +47,7 @@
       {
         "type": "link",
         "new_window": false,
-        "label": "Podcasts",
+        "label": "Podcasts [WIP]",
         "url": "/podcasts/"
       },
       {
