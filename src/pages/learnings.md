@@ -7,6 +7,6 @@ sections:
     section_id: hashicorp-nomad
     image: /images/nomad.png
     content: A collection of my dabbling / learnings with Hashicorp Nomad can be
-      found [here](https://github.com/naiduarvind/hashicorp-nomad).
+      found [here](https://github.com/naiduarvind/learning-nomad).
 template: advanced
 ---
