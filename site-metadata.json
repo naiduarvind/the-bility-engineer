@@ -41,6 +41,12 @@
       {
         "type": "link",
         "new_window": false,
+        "label": "Learnings",
+        "url": "/learnings/"
+      },
+      {
+        "type": "link",
+        "new_window": false,
         "label": "Podcasts",
         "url": "/podcasts/"
       },
