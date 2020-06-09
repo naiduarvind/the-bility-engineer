@@ -15,7 +15,7 @@ sections:
     title: Open Policy Agent
     section_id: open-policy-agent
     content: >-
-      ![](/images/open-policy-agent.jpg "Open Policy Agent")
+      ![](/images/rsz_open-policy-agent.png "Open Policy Agent")
 
 
       A collection of my dabbling / learnings with Open Policy Agent can be found [](https://github.com/naiduarvind/learning-nomad)[](https://github.com/learning-open-policy-agent)[here](https://github.com/naiduarvind/learning-open-policy-agent).
