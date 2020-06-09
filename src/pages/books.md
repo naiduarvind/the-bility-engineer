@@ -13,7 +13,7 @@ sections:
     title: "Team Topologies (Status: In Progress)"
     section_id: team-topologies
   - type: section_content
-    title: Hands on Scala
+    title: "Hands on Scala (Status: In Progress)"
     section_id: hands-on-scala
     content: '![](/images/rsz_hands-on-scala.png "Hands on Scala")'
   - type: section_content
