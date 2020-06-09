@@ -7,7 +7,7 @@ sections:
     section_id: hashicorp-nomad
     image: ""
     content: >-
-      ![](/images/rsz_2nomad.png "Hashicorp Nomad")
+      ![](/images/rsz_1nomad.png "Hashicorp Nomad")
 
 
       A collection of my dabbling / learnings with Hashicorp Nomad can be found [here](https://github.com/naiduarvind/learning-nomad).
