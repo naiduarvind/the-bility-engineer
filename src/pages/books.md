@@ -42,7 +42,14 @@ sections:
   - type: section_content
     title: "Designing Distributed Systems (Status: Done)"
     section_id: designing-distributed-systems
-    content: '![](/images/rsz_designing-distributed-systems.png "Designing
-      Distributed Systems")'
+    content: >-
+      ![](/images/rsz_designing-distributed-systems.png "Designing Distributed
+      Systems")
+
+
+      **Review:**
+
+
+      **Rating: ✮✮✮✮✩**
 template: advanced
 ---
