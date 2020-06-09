@@ -19,26 +19,55 @@ sections:
   - type: section_content
     title: "Database Reliability Engineering (Status: Done)"
     section_id: database-reliability-engineering
-    content: '![](/images/database-reliability-engineering.png "Database Reliability
-      Engineering")'
+    content: >-
+      ![](/images/database-reliability-engineering.png "Database Reliability
+      Engineering")
+
+
+      **Review:**
+
+
+      **Rating: ✮✮✮✮✩**
   - type: section_content
     title: "Accelerate (Status: Done)"
     section_id: accelerate
     image: ""
-    content: '![](/images/accelerate.png "Accelerate")'
+    content: |-
+      ![](/images/accelerate.png "Accelerate")
+
+      **Review:**
+
+      **Rating: ✮✮✮✩✩**
   - type: section_content
     title: "Refactoring Databases (Status: Done)"
     section_id: refactoring-databases
-    content: '![](/images/refactoring-databases.png "Refactoring Databases")'
+    content: |-
+      ![](/images/refactoring-databases.png "Refactoring Databases")
+
+      **Review:**
+
+      **Rating: ✮✮✮✮✮**
   - type: section_content
     title: "Optimizing Java (Status: Done)"
     section_id: optimizing-java
-    content: '![](/images/optimizing-java.png "Optimizing Java")'
+    content: |-
+      ![](/images/optimizing-java.png "Optimizing Java")
+
+      **Review:**
+
+      **Rating: ✮✮✮✩✩**
   - type: section_content
     title: "Java Performance: The Definitive Guide (Status: Done)"
     section_id: java-performance-the-definitive-guide
-    content: '![](/images/java-performance-the-definitive-guide.png "Java
-      Performance: The Definitive Guide")'
+    content: >-
+      ![](/images/java-performance-the-definitive-guide.png "Java Performance:
+      The Definitive Guide")
+
+
+      **Review:**
+
+
+      **Rating: ✮✮✮✮✩**
   - type: section_content
     title: "Designing Distributed Systems (Status: Done)"
     section_id: designing-distributed-systems
