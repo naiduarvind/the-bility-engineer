@@ -39,7 +39,7 @@ We set a simple yet clear objective to begin with: form an SRE squad. I am very 
 
 Some efforts above might seem small and straightforward but it was a direct consequence of the SRE squad formation. This relieved both of us from the constant pressure of tackling outages at wee hours with immediate remedies and product request but instead focus on long term solutions.
 
-> Can you imagine the immense level of joy seeing all 12 `Puppet` modules and a supervisor being removed from the container image which causes our application to restart at random time of the day in a week?
+> Can you imagine the immense level of joy seeing all 12 **Puppet** modules and a supervisor being removed from the container image which causes our application to restart at random time of the day in a week?
 
 **2nd Key Result:** increase reliability of our platform through benchmarking. The work requires us to identify the availability of crucial components in the user execution flow.
 
