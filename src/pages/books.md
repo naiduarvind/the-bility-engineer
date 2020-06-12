@@ -4,6 +4,10 @@ hide_title: false
 excerpt: A collection of the books I have read with personal reviews and notes.
 sections:
   - type: section_content
+    title: "Implementing SLOs (Status: Pre-ordered)"
+    section_id: implementing-slos
+    content: '![](/images/rsz_implementing-slos.png "Implementing SLOs")'
+  - type: section_content
     title: "Model Driven SWE in Practice (Status: In Progress)"
     section_id: model-driven-software-engineering-in-practice
     content: '![](/images/rsz_model-drive-software-engineering-in-practice.png
