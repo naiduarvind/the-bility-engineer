@@ -6,20 +6,51 @@ sections:
   - type: section_content
     title: "Implementing SLOs (Status: Pre-ordered)"
     section_id: implementing-slos
-    content: '![](/images/rsz_implementing-slos.png "Implementing SLOs")'
+    content: |-
+      ![](/images/rsz_implementing-slos.png "Implementing SLOs")
+
+      **Review:**
+
+      **Rating:**
+  - type: section_content
+    title: The Unicorn Project
+    section_id: the-unicorn-project
+    content: |-
+      ![](/images/rsz_the-unicorn-project.png "The Unicorn Project")
+
+      **Review:**
+
+      **Rating:**
   - type: section_content
     title: "Model Driven SWE in Practice (Status: In Progress)"
     section_id: model-driven-software-engineering-in-practice
-    content: '![](/images/rsz_model-drive-software-engineering-in-practice.png
-      "Model Driven Software Engineering in Practice")'
+    content: >-
+      ![](/images/rsz_model-drive-software-engineering-in-practice.png "Model
+      Driven Software Engineering in Practice")
+
+
+      **Review:**
+
+
+      **Rating:**
   - type: section_content
-    content: '![](/images/rsz_3team-topologies.png "Team Topologies")'
+    content: |-
+      ![](/images/rsz_3team-topologies.png "Team Topologies")
+
+      **Review:**
+
+      **Rating:**
     title: "Team Topologies (Status: In Progress)"
     section_id: team-topologies
   - type: section_content
     title: "Hands on Scala (Status: In Progress)"
     section_id: hands-on-scala
-    content: '![](/images/rsz_hands-on-scala.png "Hands on Scala")'
+    content: |-
+      ![](/images/rsz_hands-on-scala.png "Hands on Scala")
+
+      **Review:**
+
+      **Rating:**
   - type: section_content
     title: "Database Reliability Engineering (Status: Done)"
     section_id: database-reliability-engineering
