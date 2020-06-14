@@ -13,7 +13,7 @@ sections:
 
       **Rating:**
   - type: section_content
-    title: The Unicorn Project
+    title: "The Unicorn Project (Status: Backlog)"
     section_id: the-unicorn-project
     content: |-
       ![](/images/rsz_the-unicorn-project.png "The Unicorn Project")
