@@ -27,5 +27,13 @@ sections:
 
 
       A collection of my dabbling / learnings with Scala / Akka Streams can be found [](https://github.com/naiduarvind/learning-nomad)[](https://github.com/learning-open-policy-agent)[](https://github.com/naiduarvind/learning-open-policy-agent)[here](https://github.com/naiduarvind/learning-scala-akka).
+  - type: section_content
+    title: TLA+
+    section_id: tla-plus
+    content: >-
+      ![](/images/rsz_1tla-plus.png "TLA+")
+
+
+      A collection of my dabbling / learnings with TLA+ can be found [](https://github.com/naiduarvind/learning-nomad)[](https://github.com/learning-open-policy-agent)[](https://github.com/naiduarvind/learning-open-policy-agent)[](https://github.com/naiduarvind/learning-scala-akka)[here](https://github.com/naiduarvind/learning-tla-plus).
 template: advanced
 ---
