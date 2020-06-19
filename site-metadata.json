@@ -35,8 +35,8 @@
       {
         "type": "link",
         "new_window": true,
-        "label": "Library [WIP]",
-        "url": "/library/"
+        "label": "Library",
+        "url": "https://library.thebility.engineer"
       },
       {
         "type": "link",
