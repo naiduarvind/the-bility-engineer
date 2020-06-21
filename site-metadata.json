@@ -28,12 +28,6 @@
       },
       {
         "type": "link",
-        "new_window": false,
-        "label": "Books",
-        "url": "/books/"
-      },
-      {
-        "type": "link",
         "new_window": true,
         "label": "Library",
         "url": "https://library.thebility.engineer"
@@ -43,12 +37,6 @@
         "new_window": false,
         "label": "Learnings",
         "url": "/learnings/"
-      },
-      {
-        "type": "link",
-        "new_window": false,
-        "label": "Podcasts [WIP]",
-        "url": "/podcasts/"
       },
       {
         "type": "link",
