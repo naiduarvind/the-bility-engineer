@@ -1,13 +1,13 @@
 {
   "title": "The *bility Engineer",
   "description": "Systemic Engineering Sorcery",
-  "layout_style": "overflow",
+  "layout_style": "simple",
   "palette": "blue",
   "header": {
     "title": "The *bility Engineer",
     "tagline": "All things reliability, scalability, maintainability, etc.",
     "profile_img": "/images/profile-picture.jpg",
-    "background": "dark",
+    "background": "light",
     "has_nav": true,
     "nav_links": [
       {
