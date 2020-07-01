@@ -9,11 +9,11 @@ sections:
   - type: section_content
     title: About
     section_id: about
-    content: Arvind Naidu is the Head of Engineering at
+    content: Arvind Naidu was the Head of Engineering at
       [Mindvalley](https://mindvalley.com) running day to day management and
       operations. Arvind has a huge experience in Site Reliability Engineer
       (SRE) back in [Learndot@ServiceRocket](https://learndot.com) innovating
-      with a team of high performing engineers. Arvind also provides pro-bono
+      with a team of high performing engineers. Arvind also provides
       consultations to a few reputable firms in Silicon Valley. Arvind focuses
       primarily on reliability, maintainability, and scalability of engineering
       all around by approaching, adopting and adapting good practises.
