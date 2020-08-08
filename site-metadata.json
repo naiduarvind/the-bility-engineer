@@ -51,6 +51,12 @@
         "url": "https://resume.thebility.engineer"
       },
       {
+        "type": "link",
+        "new_window": false,
+        "label": "Open Invite",
+        "url": "/open-invite"
+      },
+      {
         "label": "Contact",
         "url": "/contact/",
         "type": "link",
