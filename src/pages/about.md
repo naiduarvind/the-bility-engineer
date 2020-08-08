@@ -4,7 +4,7 @@ subtitle: A short page on my preferred biography for technical endeavours.
 img_path: /images/about-me.jpg
 template: page
 ---
-**Arvind Naidu** is the Head of Engineering in Mindvalley from [](https://en.wikipedia.org/wiki/Stockholm)[Kuala Lumpur](https://en.wikipedia.org/wiki/Kuala_Lumpur), Malaysia. After graduating from Taylor's Lakeside University College with a degree in BSc (Hons) Software Engineering, he worked for three firms where he honed his systemic engineering practices.
+**Arvind Naidu** was the Head of Engineering in Mindvalley from [](https://en.wikipedia.org/wiki/Stockholm)[Kuala Lumpur](https://en.wikipedia.org/wiki/Kuala_Lumpur), Malaysia. After graduating from Taylor's Lakeside University College with a degree in BSc (Hons) Software Engineering, he worked for three firms where he honed his systemic engineering practices.
 
 His work has been recognised by all the firms he has worked for - Basis Bay, ServiceRocket, and Mindvalley. Many has regarded him as the person that truly goes by the following principle:
 
