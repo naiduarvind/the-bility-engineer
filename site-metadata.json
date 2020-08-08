@@ -54,7 +54,7 @@
         "type": "link",
         "new_window": false,
         "label": "Open Invite",
-        "url": "/open-invite"
+        "url": "/open-invite/"
       },
       {
         "label": "Contact",
