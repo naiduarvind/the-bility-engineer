@@ -1,5 +1,5 @@
 ---
-title: "Presentation: Serializing Culture by Kelsey Hightower "
+title: "Presentation: Serializing Culture by Kelsey Hightower (WIP)"
 date: 2020-06-24T07:30:44.608Z
 thumb_img_path: /images/the-reflexive-loop.png
 template: post
