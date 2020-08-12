@@ -1,5 +1,5 @@
 ---
-title: First Quarter as an SRE
+title: "Leadership: First Quarter as an SRE"
 date: 2019-01-07T11:38:17.577Z
 thumb_img_path: /images/sre-jd.png
 template: post
