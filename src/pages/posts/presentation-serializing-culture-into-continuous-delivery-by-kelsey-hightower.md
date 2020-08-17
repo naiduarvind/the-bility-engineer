@@ -17,7 +17,7 @@ If you are new to the concept or would like a refresher, here are a few things t
 * `practice > "best practice"`
 * `serializing decisions`
 * `practical, incremental steps of change`
-* `keep the "front door" the same for internal users (cross-departments)`
+* `same "front door" for internal users (cross-departments)`
 
 By keeping in mind the takeaways above while serializing culture, one can easily and quickly acquire the techniques for getting people comfortable with new tools and automation!
 
