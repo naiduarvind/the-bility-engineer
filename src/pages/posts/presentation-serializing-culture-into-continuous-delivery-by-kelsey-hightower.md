@@ -21,4 +21,30 @@ If you are new to the concept or would like a refresher, here are a few things t
 
 By keeping in mind the takeaways above while serializing culture, one can easily and quickly acquire the techniques for getting people comfortable with new tools and automation!
 
+A few quotes from [Kelsey Hightower](https://twitter.com/kelseyhightower) that completely resonated with my previous approaches on serializing culture for organizations I have worked for are:
+
+* Give them a tarball, not a container!
+
+  *
+* Add an egg, they want to make the cake!
+
+  *
+* Tell a story, everyone loves a story.
+
+  *
+* Where is the ticket? It's the front door.
+
+  *
+* Get the front door right!
+
+  *
+
+I have found repeated success in serializing culture to drive process improvements at work, [](https://support.atlassian.com/jira-software-cloud/docs/view-and-understand-the-control-chart/)through <strike>Spinnaker</strike> any tool that already exists within the realm of the organization. But if a certain tool does not exist 
+
+![](/images/screenshot-2020-08-18-at-3.11.08-am.png "Use your tools and processes to improve your tools and processes. - Charity Majors")
+
+
+
+ Although there’s a lack of extreme homogeneity in the data which represents our work, it is still helpful to use it to understand the software development process or the performance of a service desk.
+
 If you have serialized a culture effectively and improved the processes / tools surrounding it cultivating change whilst keeping the abstracted "front door" the same -- maintaining / reducing overhead, reach out to me via the [contact](https://thebility.engineer/contact/) form and tell me your story over a meal or coffee.
