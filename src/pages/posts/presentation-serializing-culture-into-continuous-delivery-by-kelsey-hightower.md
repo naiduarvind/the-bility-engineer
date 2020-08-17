@@ -17,6 +17,6 @@ If you are new to the concept or would like a refresher, here are a few things t
 * practical, incremental steps
 * keep the "front door" the same for internal users
 
-By keeping in mind the 
+By keeping in mind the takeaways above while serializing culture, one can easily and quickly acquire the techniques for getting people comfortable with new tools and automation!
 
 If you have serialized a culture effectively and improved the processes / tools surrounding it cultivating change whilst keeping the abstracted "front door" the same -- maintaining / reducing overhead, reach out to me via the [contact](https://thebility.engineer/contact/) form and tell me your story over a meal or coffee.
