@@ -6,7 +6,7 @@ excerpt: "Culture is what you do: the actions you take as you work; your steps
   in approaching problems."
 template: post
 ---
-> If you’re an executive, and you want to learn what is *likely happening inside your own company* today around your culture of software delivery (and the benefits you’d get by serializing that culture), this is a must-watch video
+> If you’re an executive, and you want to learn what is *likely happening inside your own company* today around your culture of software delivery (and the benefits you’d get by serializing that culture), this is a must-watch video.
 >
 > <div style="text-align:center"><a href="https://www.youtube.com/watch?v=d_lFZtlM5KI"><img src="https://img.youtube.com/vi/d_lFZtlM5KI/0.jpg" style="width:640px; height:480px" title="Kelsey Hightower on Spinnaker: Serializing Culture Into Continuous Delivery"></a></div>
 
@@ -39,12 +39,14 @@ A few quotes from [Kelsey Hightower](https://twitter.com/kelseyhightower) that c
 
   *
 
-I have found repeated success in serializing culture to drive process improvements at work, [](https://support.atlassian.com/jira-software-cloud/docs/view-and-understand-the-control-chart/)through <strike>Spinnaker</strike> any tool that already exists within the realm of the organization. But if a certain tool does not exist 
+I have found repeated success in serializing culture to drive process improvements at work, [](https://support.atlassian.com/jira-software-cloud/docs/view-and-understand-the-control-chart/)through <strike>Spinnaker</strike> any tool that already exists within the realm of the organization. Charity Majors also incidentally happens to mention something similar:
 
 ![](/images/screenshot-2020-08-18-at-3.11.08-am.png "Use your tools and processes to improve your tools and processes. - Charity Majors")
 
+But if a certain tool neither exists or works as intended, one should drive the adoption of a new tool that satisfies the previous and current requirements to minimize chaos presented in change -- as claimed by [Satir's Change Model](http://dhemery.com/articles/managing_yourself_through_change/).
 
+While there’s a lack of homogeneity in the data which represents our culture, it is still helpful to understand the software development lifecycle (SDLC) process or the performance of a service desk. One way I have recently discovered on not only exploring the current SDLC process in place but rather every aspect affected by the organization's structure is through an [exploratory mindmap](https://www.kartar.net/2020/07/vpe-and-cto-the-first-90-days/) by [James Turnbull](https://twitter.com/kartar) which has made its way into my management tool belt.
 
- Although there’s a lack of extreme homogeneity in the data which represents our work, it is still helpful to use it to understand the software development process or the performance of a service desk.
+![](/images/exploring-roadmap.svg "90-day Exploratory Mindmap by James Turnbull")
 
 If you have serialized a culture effectively and improved the processes / tools surrounding it cultivating change whilst keeping the abstracted "front door" the same -- maintaining / reducing overhead, reach out to me via the [contact](https://thebility.engineer/contact/) form and tell me your story over a meal or coffee.
