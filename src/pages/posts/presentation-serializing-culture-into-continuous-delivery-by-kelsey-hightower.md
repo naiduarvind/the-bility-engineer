@@ -1,5 +1,5 @@
 ---
-title: "Presentation: Serializing Culture by Kelsey Hightower (WIP)"
+title: "Presentation: Serializing Culture by Kelsey Hightower"
 date: 2020-06-24T07:30:44.608Z
 thumb_img_path: ""
 template: post
@@ -12,4 +12,4 @@ template: post
 
 I’m recommending this video because I haven’t seen a good one for a while that reflected how I typically approach in understanding an organization within 90 days being in management, and Kelsey presented it in a clear and concise manner. 
 
-If you have serialized a culture effectively and improved the processes / tools surrounding it cultivating change whilst keeping the abstracted "front door" -- maitaining / reducing overhead, reach out to me via the [contact](https://thebility.engineer/contact/) form and tell me your story over a meal or coffee.
+If you have serialized a culture effectively and improved the processes / tools surrounding it cultivating change whilst keeping the abstracted "front door" the same -- maintaining / reducing overhead, reach out to me via the [contact](https://thebility.engineer/contact/) form and tell me your story over a meal or coffee.
