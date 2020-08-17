@@ -1,8 +1,9 @@
 ---
 title: "Leadership: First Quarter as an SRE"
-subtitle: Successfully transitioning a day to day Operations team to an SRE team.
+subtitle: ""
 date: 2019-01-07T11:38:17.577Z
 thumb_img_path: /images/sre-jd.png
+excerpt: Successfully transitioning a day to day Operations team to an SRE team.
 template: post
 ---
 Ever since the Site Reliability Engineering (SRE) book was published in 2016, we have been improving our approach to operations by gradually adopting some tools mentioned in the book, e.g. defining Service Level Objectives (SLO), learning and preventing failures from incident reports, etc. Our selective adoption has met with limited success, mainly due to how an Operations Engineer was still being perceived as a firefighter. Before we were renamed to Operations Engineers, we were once called System Operators (SysOps).
