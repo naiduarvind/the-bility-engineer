@@ -1,9 +1,9 @@
 ---
 title: "FinOps: Making The Invisible Visible - Costs"
-subtitle: Driving financial awareness of Cloud operating expenses to engineers.
+subtitle: ""
 date: 2018-05-26T11:34:05.399Z
 thumb_img_path: /images/aws-budgets.jpeg
-excerpt: Driving financial awareness of Cloud operating expenses to engineers.
+excerpt: Driving financial awareness of Cloud OPEX to engineers.
 template: post
 ---
 > **ServiceRocket (SR) Engineers are unable to make optimal decisions because they do not consider the true cost of services being used.**
