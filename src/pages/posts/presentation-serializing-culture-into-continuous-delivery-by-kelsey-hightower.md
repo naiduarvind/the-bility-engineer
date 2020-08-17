@@ -7,8 +7,6 @@ excerpt: "Culture is what you do: the actions you take as you work; your steps
 template: post
 ---
 > If you’re an executive, and you want to learn what is *likely happening inside your own company* today around your culture of software delivery (and the benefits you’d get by serializing that culture), this is a must-watch video.
->
-> <div style="text-align:center"><a href="https://www.youtube.com/watch?v=d_lFZtlM5KI"><img src="https://img.youtube.com/vi/d_lFZtlM5KI/0.jpg" style="width:640px; height:480px" title="Kelsey Hightower on Spinnaker: Serializing Culture Into Continuous Delivery"></a></div>
 
 I’m recommending this video because I haven’t seen a good one for a while that reflected how I typically approach understanding an organization within 90 days being in management, and Kelsey presented it in a clear and concise manner.
 
@@ -45,7 +43,9 @@ I have found repeated success in serializing culture to drive process improvemen
 
 But if a certain tool neither exists or works as intended, one should drive the adoption of a new tool that satisfies the previous and current requirements to minimize chaos presented in change -- as claimed by [Satir's Change Model](http://dhemery.com/articles/managing_yourself_through_change/).
 
-While there’s a lack of homogeneity in the data which represents our culture, it is still helpful to understand the software development lifecycle (SDLC) process or the performance of a service desk. One way I have recently discovered on not only exploring the current SDLC process in place but rather every aspect affected by the organization's structure is through an [exploratory mindmap](https://www.kartar.net/2020/07/vpe-and-cto-the-first-90-days/) by [James Turnbull](https://twitter.com/kartar) which has made its way into my management tool belt.
+While there’s a lack of homogeneity in the data which represents our culture, it is still helpful to understand the software development lifecycle (SDLC) process or the performance of a service desk. 
+
+One way I have recently discovered on not only exploring the current SDLC process in place but rather every aspect affected by the organization's structure is through an [exploratory mindmap](https://www.kartar.net/2020/07/vpe-and-cto-the-first-90-days/) by [James Turnbull](https://twitter.com/kartar) which has made its way into my management tool belt.
 
 ![](/images/exploring-roadmap.svg "90-day Exploratory Mindmap by James Turnbull")
 
