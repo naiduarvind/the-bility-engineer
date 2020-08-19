@@ -47,7 +47,7 @@ Our ticket gobbler was a "machine-user" and we had many iterations on our "front
 
 Under the hood, many of the automations that catered towards serializing the process that was part of our culture used Terraform as a first class citizen with Jsonnet being the template engine. Every request would then fire off a pipeline in Spinnaker with Hub to create pull requests (PR) using the templatized Terraform manifests which was checked for conventions on naming, syntax, etc using Open Policy Agent against codified policies. PRs are merged automatically when the operator comments “Approved” in Jira Service Desk and the policy checks are green!
 
-Here the fully automated “front door” using Jira Service Desk:
+Here is how the fully automated “front door” using Jira Service Desk looks like:
 
 ![](/images/screenshot-2020-08-19-at-2.00.10-pm.png "Serialized JSD")
 
