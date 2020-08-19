@@ -43,11 +43,9 @@ One way I have recently discovered on not only exploring the current SDLC proces
 
 A personal journey of mine on serializing culture was similar to what was presented by Kelsey but of course with some extensions. We leveraged Jira Automations and Spinnaker Jira Stage which achieves the same as the custom tool without additional maintenance overhead. 
 
-Our ticket gobbler was a "machine-user" and we had many iterations on our "front door" to balance similarity and familiarity for our internal users. Including SLAs into tickets using Jira Automations was a huge win in preventing a flood of messages from users to operators with questions on "When would this be done?" and having enabled Jira Stage in Spinnaker informed users that their tickets has been done when the pipeline completed successfully.
+Our ticket gobbler was a "machine-user" and we had many iterations on our "front door" to balance similarity and familiarity for our internal users. Including SLAs into tickets using Jira Automations was a huge win in preventing a flood of messages from users to operators questioning "When would this be done?" and having enabled Jira Stage in Spinnaker informed users that their tickets has been done when the pipeline completed successfully.
 
-Many of the automations that catered towards serializing the culture we had was using Terraform as a first class citizen with Jsonnet powered 
-
- using Spinnaker with Hub to create PRs and followed conventions for naming, etc using OPA which automatically checks the policy against change made and merges the PR so long as one comments “Approved” in Jira!
+Under the hood, many of the automations that catered towards serializing the process that was part of our culture used Terraform as a first class citizen with Jsonnet being the template engine for it. Every request would then fire off a pipeline in Spinnaker with Hub to create pull requests (PR) using the templatized Terraform manifests which was checked for conventions on naming, syntax, etc using Open Policy Agent against codified policies and PRs are merged automatically when the operator comments “Approved” in Jira Service Desk and the policy checks are green!
 
 Here the fully automated “front door” using Jira Service Desk:
 
