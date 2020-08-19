@@ -62,6 +62,6 @@ Here is how the fully automated “front door” using Jira Service Desk looks l
 
 Here is the System Context Diagram of the C4 Model for the entire workflow:
 
-![]( "System Context Diagram of C4 Model")
+![](/images/screenshot-2020-08-20-at-2.36.20-am.png "System Context Diagram of C4 Model")
 
 If you have serialized a culture effectively and improved the processes / tools surrounding it cultivating change whilst keeping the abstracted "front door" the same -- maintaining / reducing overhead, reach out to me via the [contact](https://thebility.engineer/contact/) form and tell me your story over a meal or coffee.
