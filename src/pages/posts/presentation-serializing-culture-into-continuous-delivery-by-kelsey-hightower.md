@@ -29,7 +29,7 @@ A few quotes from [Kelsey Hightower](https://twitter.com/kelseyhightower) that c
 * Where is the ticket? It's the front door.
 * Get the front door right!
 
-I have found repeated success in serializing culture to drive process improvements at work, [](https://support.atlassian.com/jira-software-cloud/docs/view-and-understand-the-control-chart/)through <strike>Spinnaker</strike> any tool that already exists within the realm of the organization. Charity Majors also incidentally happens to mention something similar:
+I have found repeated success in serializing culture to drive process improvements at work, [](https://support.atlassian.com/jira-software-cloud/docs/view-and-understand-the-control-chart/)through <strike>Spinnaker</strike> any tool that already exists within the realm of the organization. Charity Majors incidentally happens to also mention something similar:
 
 ![](/images/screenshot-2020-08-18-at-3.11.08-am.png "Use your tools and processes to improve your tools and processes. - Charity Majors")
 
