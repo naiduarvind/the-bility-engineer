@@ -31,7 +31,7 @@ A few quotes from [Kelsey Hightower](https://twitter.com/kelseyhightower) that c
   *
 * Tell a story, everyone loves a story.
 
-  *
+  * A good story pulls 
 * Where is the ticket? It's the front door.
 
   *
@@ -50,5 +50,11 @@ While there’s a lack of homogeneity in the data which represents our culture, 
 One way I have recently discovered on not only exploring the current SDLC process in place but rather every aspect affected by the organization's structure is through an [exploratory mindmap](https://www.kartar.net/2020/07/vpe-and-cto-the-first-90-days/) by [James Turnbull](https://twitter.com/kartar) which has made its way into my management tool belt.
 
 ![](/images/exploring-roadmap.svg "90-day Exploratory Mindmap by James Turnbull")
+
+In my organization, I did the exact same flow with some additions. You could leverage Jira Automations and Spinnaker Jira Stage - it does the same as the custom tool without overhead. Our ticket gobbler was “ sauron-droid” and made it familiar like what you said “a front door” but with Jira Automations assigning tickets with SLAs so people don’t freak out with it being done too fast. We templatized toils with Jsonnet for Terraform using Spinnaker with Hub to create PRs and followed conventions for naming, etc using OPA which automatically checks the policy against change made and merges the PR so long as one comments “Approved” in Jira!
+
+Here the fully automated “front door” using Jira Service Desk:
+
+![](/images/screenshot-2020-08-19-at-2.00.10-pm.png "Serialized JSD")
 
 If you have serialized a culture effectively and improved the processes / tools surrounding it cultivating change whilst keeping the abstracted "front door" the same -- maintaining / reducing overhead, reach out to me via the [contact](https://thebility.engineer/contact/) form and tell me your story over a meal or coffee.
