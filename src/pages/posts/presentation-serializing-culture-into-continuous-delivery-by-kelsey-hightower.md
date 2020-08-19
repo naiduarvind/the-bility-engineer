@@ -24,20 +24,10 @@ By keeping in mind the takeaways above while serializing culture, one can easily
 A few quotes from [Kelsey Hightower](https://twitter.com/kelseyhightower) that completely resonated with my previous approaches on serializing culture for organizations I have worked for are:
 
 * Give them a tarball, not a container!
-
-  *
 * Add an egg, they want to make the cake!
-
-  *
 * Tell a story, everyone loves a story.
-
-  * A good story pulls 
 * Where is the ticket? It's the front door.
-
-  *
 * Get the front door right!
-
-  *
 
 I have found repeated success in serializing culture to drive process improvements at work, [](https://support.atlassian.com/jira-software-cloud/docs/view-and-understand-the-control-chart/)through <strike>Spinnaker</strike> any tool that already exists within the realm of the organization. Charity Majors also incidentally happens to mention something similar:
 
@@ -51,7 +41,13 @@ One way I have recently discovered on not only exploring the current SDLC proces
 
 ![](/images/exploring-roadmap.svg "90-day Exploratory Mindmap by James Turnbull")
 
-In my organization, I did the exact same flow with some additions. You could leverage Jira Automations and Spinnaker Jira Stage - it does the same as the custom tool without overhead. Our ticket gobbler was “ sauron-droid” and made it familiar like what you said “a front door” but with Jira Automations assigning tickets with SLAs so people don’t freak out with it being done too fast. We templatized toils with Jsonnet for Terraform using Spinnaker with Hub to create PRs and followed conventions for naming, etc using OPA which automatically checks the policy against change made and merges the PR so long as one comments “Approved” in Jira!
+A personal journey of mine on serializing culture was similar to what was presented by Kelsey but of course with some extensions. We leveraged Jira Automations and Spinnaker Jira Stage which achieves the same as the custom tool without additional maintenance overhead. 
+
+Our ticket gobbler was a "machine-user" and we had many iterations on our "front door" to balance similarity and familiarity for our internal users. Including SLAs into tickets using Jira Automations was a huge win in preventing a flood of messages from users to operators with questions on "When would this be done?" and having enabled Jira Stage in Spinnaker informed users that their tickets has been done when the pipeline completed successfully.
+
+Many of the automations that catered towards serializing the culture we had was using Terraform as a first class citizen with Jsonnet powered 
+
+ using Spinnaker with Hub to create PRs and followed conventions for naming, etc using OPA which automatically checks the policy against change made and merges the PR so long as one comments “Approved” in Jira!
 
 Here the fully automated “front door” using Jira Service Desk:
 
