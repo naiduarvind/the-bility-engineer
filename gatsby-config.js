@@ -4,6 +4,7 @@ module.exports = {
     plugins: [
         `gatsby-plugin-react-helmet`,
         `gatsby-source-data`,
+        `gatsby-plugin-twitter`,
         {
             resolve: `gatsby-source-filesystem`,
             options: {
