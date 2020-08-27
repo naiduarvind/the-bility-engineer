@@ -5,6 +5,8 @@ module.exports = {
         `gatsby-plugin-react-helmet`,
         `gatsby-source-data`,
         `gatsby-plugin-twitter`,
+        `gatsby-remark-embed-youtube`,
+        `gatsby-remark-responsive-iframe`,
         {
             resolve: `gatsby-source-filesystem`,
             options: {
@@ -51,6 +53,6 @@ module.exports = {
               }
               ]
             }
-          },
+        }
     ]
 };
