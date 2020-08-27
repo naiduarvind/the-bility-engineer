@@ -37,6 +37,20 @@ module.exports = {
                 sourceUrlPath: `fields.url`,
                 pageContextProperty: `menus`,
             }
-        }
+        },
+        {
+            resolve: "gatsby-transformer-remark",
+            options: {
+              plugins: [
+              {
+                resolve: "gatsby-remark-embed-youtube",
+                options: {
+                  width: 800,
+                  height: 400
+                }
+              }
+              ]
+            }
+          },
     ]
 };
