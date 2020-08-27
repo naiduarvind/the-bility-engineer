@@ -10,7 +10,7 @@ template: post
 
 <div style="text-align:center"><a href="https://www.youtube.com/watch?v=d_lFZtlM5KI"><img src="https://img.youtube.com/vi/d_lFZtlM5KI/0.jpg" style="width:640px; height:480px" title="Kelsey Hightower on Spinnaker: Serializing Culture Into Continuous Delivery"></a></div>
 
-'youtube:https://www.youtube.com/embed/d_lFZtlM5KI'
+video: \[VideoTitle](https://www.youtube.com/embed/d_lFZtlM5KI) youtube: \[Cool Youtube Video](https://www.youtube.com/watch?v=d_lFZtlM5KI)
 
 I’m recommending this video because I haven’t seen a good one for a while that reflected how I typically approach understanding an organization within 90 days being in management, and Kelsey presented it in a clear and concise manner.
 
