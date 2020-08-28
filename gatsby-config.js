@@ -89,8 +89,8 @@ module.exports = {
                       }
                     }
                   `,
-                  output: "/rss.xml",
-                  title: "The (*)bility Engineer's RSS Feed",
+                  output: `/rss.xml`,
+                  title: `${siteMetadata.title}``'s Feed`,
                 },
               ],
             },
