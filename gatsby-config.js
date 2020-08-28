@@ -60,8 +60,8 @@ module.exports = {
                       return Object.assign({}, edge.node.frontmatter, {
                         description: edge.node.excerpt,
                         date: edge.node.frontmatter.date,
-                        url: site.siteMetadata.siteUrl + edge.node.fields.slug,
-                        guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                        url: site.siteMetadata.siteUrl + edge.node.fields.url,
+                        guid: site.siteMetadata.siteUrl + edge.node.fields.uel,
                         custom_elements: [{ "content:encoded": edge.node.html }],
                       })
                     })
@@ -75,7 +75,7 @@ module.exports = {
                           node {
                             excerpt
                             html
-                            fields { slug }
+                            fields { url }
                             frontmatter {
                               title
                               date
