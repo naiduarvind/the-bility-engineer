@@ -62,7 +62,7 @@ module.exports = {
                         date: edge.node.frontmatter.date,
                         url: site.siteMetadata.siteUrl + edge.node.fields.url,
                         guid: site.siteMetadata.siteUrl + edge.node.fields.url,
-                        enclosure: site.siteMetadata.siteUrl + edge.node.frontmatter.thumb_img_path,
+                        enclosure: {url: site.siteMetadata.siteUrl + edge.node.frontmatter.thumb_img_path},
                         custom_elements: [{ "content:encoded": edge.node.html }],
                       })
                     })
@@ -76,7 +76,7 @@ module.exports = {
                       ) {
                         edges {
                           node {
-                            excerpt
+                            excerpt(pruneLength: 140)
                             html
                             fields { 
                               url 
