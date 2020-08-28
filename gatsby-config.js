@@ -62,6 +62,7 @@ module.exports = {
                         date: edge.node.frontmatter.date,
                         url: site.siteMetadata.siteUrl + edge.node.fields.url,
                         guid: site.siteMetadata.siteUrl + edge.node.fields.url,
+                        enclosure: site.siteMetadata.siteUrl + edge.node.frontmatter.thumb_img_path,
                         custom_elements: [{ "content:encoded": edge.node.html }],
                       })
                     })
@@ -83,14 +84,15 @@ module.exports = {
                             frontmatter {
                               title
                               date
+                              thumb_img_path
                             }
                           }
                         }
                       }
                     }
                   `,
-                  output: `/rss.xml`,
-                  title: `${siteMetadata.title}``'s Feed`,
+                  output: "/rss.xml",
+                  title: "The (*)bility Engineer's Feed",
                 },
               ],
             },
