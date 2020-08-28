@@ -1,7 +1,8 @@
 {
-  "siteUrl": "https://thebility.engineer",
   "title": "The (*)bility Engineer",
-  "description": "Systemic Engineering Sorcery",
+  "description": "All things reliability, scalability, maintainability, etc.",
+  "image": "/images/the-bility-engineer.png",
+  "siteUrl": "https://thebility.engineer",
   "layout_style": "overflow",
   "palette": "blue",
   "header": {
