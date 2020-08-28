@@ -17,6 +17,11 @@ export default class Body extends React.Component {
                     <meta name="description" content={_.get(this.props, 'pageContext.frontmatter.excerpt') || _.get(this.props, 'pageContext.site.siteMetadata.description')}/>
                     <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i&display=swap" rel="stylesheet"/> 
                     <link rel="stylesheet" href={safePrefix('assets/css/main.css')}/>
+                    <link rel="stylesheet" href={safePrefix('assets/css/main.css')}/>
+                    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png"/>
+                    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png"/>
+                    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png"/>
+                    <link rel="manifest" href="/images/favicon/site.webmanifest"></link>
                     {(_.get(this.props, 'pageContext.frontmatter.template') === 'post') &&  
                     _.get(this.props, 'pageContext.frontmatter.canonical_url') && 
                     <link rel="canonical" href={_.get(this.props, 'pageContext.frontmatter.canonical_url')}/>
