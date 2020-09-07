@@ -1,8 +1,8 @@
 ---
 title: "Implementation: Bazel as a Build System (WIP)"
 date: 2020-08-17T19:42:30.799Z
-thumb_img_path: ""
-content_img_path: /images/bazel.png
+thumb_img_path: /images/bazel.png
+content_img_path: ""
 excerpt: Peeking under the covers of Bazel -- the CI system that claims {Cheap,
   Fast} - choose two.
 canonical_url: ""
