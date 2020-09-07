@@ -7,6 +7,20 @@ excerpt: Peeking under the covers of Bazel -- the CI system that claims {Cheap,
 canonical_url: ""
 template: post
 ---
+```
+project-name
+└── packages
+    ├──getting-started
+    │  ├── main.go
+    │  ├── BUILD.bazel
+    │  ├── ext
+    │  │  ├── counting.go
+├──WORKSPACE
+├──BUILD.bazel
+```
+
+
+
 1. What am I really trying to say?
 
    The steep learning curve of Bazel comes into integrating Bazel and not getting started with it. How to easily get started with using Bazel for small to mid-sized projects. Getting Bazel ready for use in CI -- which is to be decided and shown how in another post.
