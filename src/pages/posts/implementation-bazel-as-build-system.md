@@ -166,6 +166,14 @@ container_pull(
 )
 ```
 
+```shell
+load("@bazel_gazelle//:def.bzl", "gazelle")
+
+# gazelle:prefix github.com/$USERNAME/$REPOSITORY
+gazelle(name = "gazelle")
+
+```
+
 1. What am I really trying to say?
 
    The steep learning curve of Bazel comes into integrating Bazel and not getting started with it. How to easily get started with using Bazel for small to mid-sized projects. Getting Bazel ready for use in CI -- which is to be decided and shown how in another post.
