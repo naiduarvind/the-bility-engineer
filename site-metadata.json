@@ -15,7 +15,7 @@
       {
         "label": "Home",
         "url": "/",
-        "type": "link",
+        "type": "icon",
         "icon_class": "fas fa-home"
       },
       {
