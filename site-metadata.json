@@ -30,15 +30,15 @@
       },
       {
         "type": "link",
-        "new_window": true,
-        "label": "Library",
-        "url": "https://library.thebility.engineer"
+        "new_window": false,
+        "label": "Talks",
+        "url": "/talks/"
       },
       {
         "type": "link",
-        "new_window": false,
-        "label": "Learnings",
-        "url": "/learnings/"
+        "new_window": true,
+        "label": "Library",
+        "url": "https://library.thebility.engineer"
       },
       {
         "type": "link",
