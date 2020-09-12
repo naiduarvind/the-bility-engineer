@@ -15,8 +15,8 @@
       {
         "label": "Home",
         "url": "/",
-        "type": "icon",
-        "icon_class": "fa-home"
+        "type": "link",
+        "icon_class": ""
       },
       {
         "label": "About",
@@ -31,8 +31,20 @@
       {
         "type": "link",
         "new_window": false,
-        "label": "Talks",
+        "label": "Talks (WIP)",
         "url": "/talks/"
+      },
+      {
+        "type": "link",
+        "new_window": false,
+        "label": "Wardley Maps (WIP)",
+        "url": "/maps/"
+      },
+      {
+        "type": "link",
+        "new_window": false,
+        "label": "Open Invite",
+        "url": "/open-invite/"
       },
       {
         "type": "link",
@@ -51,12 +63,6 @@
         "new_window": true,
         "label": "Resume",
         "url": "https://resume.thebility.engineer"
-      },
-      {
-        "type": "link",
-        "new_window": false,
-        "label": "Open Invite",
-        "url": "/open-invite/"
       },
       {
         "label": "Contact",
