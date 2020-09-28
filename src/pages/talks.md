@@ -1,6 +1,6 @@
 ---
 title: Talks
-hide_title: true
+hide_title: false
 sections:
   - type: section_hero
     title: Request for Speaking
