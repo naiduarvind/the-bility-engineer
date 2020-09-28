@@ -4,9 +4,16 @@ hide_title: false
 sections:
   - type: section_hero
     content: |-
-      **Wardley Mapping Template**
+      ##### Wardley Map Template
 
       ![](/images/template.png "Wardley Mapping Template")
+    title: ""
+    section_id: ""
+    actions:
+      - type: button
+        new_window: true
+        label: Template Source
+        url: https://www.figma.com/file/Oa9DvuPdSpqiqw2a6qyRj9/Arvind's-Wardley-Mapping-Template
   - type: section_content
     title: Hiring Landscape
     section_id: hiring-landscape
@@ -71,7 +78,7 @@ sections:
         label: Twitter Thread
         url: https://twitter.com/swardley/status/1164837968755875843
   - type: section_content
-    title: Tean Sizing Landscape
+    title: Team Sizing Landscape
     section_id: team-sizing-landscape
     image: /images/team-sizing.jpeg
     actions:
