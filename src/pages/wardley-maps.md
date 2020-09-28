@@ -4,7 +4,7 @@ hide_title: false
 sections:
   - type: section_hero
     content: |-
-      ##### Request for Speaking
+      ##### Wardley Map Template
 
       ![](/images/template.png "Wardley Mapping Template")
     title: ""
