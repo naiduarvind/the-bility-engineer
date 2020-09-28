@@ -2,6 +2,11 @@
 title: Wardley Maps
 hide_title: false
 sections:
+  - type: section_hero
+    content: |-
+      **Wardley Mapping Template**
+
+      ![](/images/template.png "Wardley Mapping Template")
   - type: section_content
     title: Hiring Landscape
     section_id: hiring-landscape
