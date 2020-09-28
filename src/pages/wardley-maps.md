@@ -78,7 +78,7 @@ sections:
         label: Twitter Thread
         url: https://twitter.com/swardley/status/1164837968755875843
   - type: section_content
-    title: Tean Sizing Landscape
+    title: Team Sizing Landscape
     section_id: team-sizing-landscape
     image: /images/team-sizing.jpeg
     actions:
