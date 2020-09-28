@@ -38,9 +38,9 @@ sections:
 
       Actual Description:
 
-      ### Sources
+      #### Sources
 
-      ### FAQ
+      #### FAQ
   - type: section_content
     title: Black Swans of EKS in Production (Day 118)
     image: /images/black-swans-of-eks-in-production.png
@@ -55,9 +55,9 @@ sections:
 
       Actual Description:
 
-      ### Sources
+      #### Sources
 
-      ### FAQ
+      #### FAQ
   - type: section_content
     title: The Journey of Being an SRE
     section_id: the-journey-of-being-an-sre
@@ -72,9 +72,9 @@ sections:
 
       Actual Description:
 
-      ### Sources
+      #### Sources
 
-      ### FAQ
+      #### FAQ
   - type: section_content
     title: Chaos Engineering 101
     section_id: chaos-engineering-101
@@ -89,9 +89,9 @@ sections:
 
       Actual Description:
 
-      ### Sources
+      #### Sources
 
-      ### FAQ
+      #### FAQ
   - type: section_content
     title: Simplifying Observability on Regressions
     section_id: simplifying-observability-on-regressions
@@ -106,8 +106,8 @@ sections:
 
       Actual Description:
 
-      ### Sources
+      #### Sources
 
-      ### FAQ
+      #### FAQ
 template: advanced
 ---
