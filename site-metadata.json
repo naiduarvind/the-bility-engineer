@@ -55,8 +55,8 @@
       {
         "type": "link",
         "new_window": true,
-        "label": "Jira",
-        "url": "https://thebilityengineer.atlassian.net/secure/RapidBoard.jspa?projectKey=TBE"
+        "label": "Jira (WIP)",
+        "url": "https://jira.thebility.engineer"
       },
       {
         "type": "link",
