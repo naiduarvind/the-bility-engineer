@@ -35,9 +35,9 @@ sections:
         label: Video
         url: https://youtu.be/17azhiILQT8?t=637
     content: |-
-      Official Description:
+      **Official Description:**
 
-      Actual Description:
+      **Actual Description:**
 
       **Sources**
 
@@ -52,9 +52,9 @@ sections:
         url: https://www.beautiful.ai/-Lj-73V-Xwa7IoQ7yPcL/1
     section_id: black-swans-of-eks-in-production-day-118
     content: |-
-      Official Description:
+      **Official Description:**
 
-      Actual Description:
+      **Actual Description:**
 
       **Sources**
 
@@ -69,9 +69,9 @@ sections:
         label: Video
         url: https://youtu.be/N8FI0qoouF8?t=2728
     content: |-
-      Official Description:
+      **Official Description:**
 
-      Actual Description:
+      **Actual Description:**
 
       **Sources**
 
@@ -86,9 +86,9 @@ sections:
         label: Slides
         url: https://app.ludus.one/8fc92dec-9989-4a5b-95b2-820140dc7bd5#4
     content: |-
-      Official Description:
+      **Official Description:**
 
-      Actual Description:
+      **Actual Description:**
 
       **Sources**
 
@@ -103,9 +103,9 @@ sections:
         label: Slides
         url: https://app.ludus.one/4cf64f1a-9fde-4354-814f-4d65c514876a
     content: |-
-      Official Description:
+      **Official Description:**
 
-      Actual Description:
+      **Actual Description:**
 
       **Sources**
 
