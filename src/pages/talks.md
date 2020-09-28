@@ -35,7 +35,7 @@ sections:
     section_id: chaos-engineering-101
     image: /images/chaos-engineering.png
     actions:
-      - type: link
+      - type: button
         new_window: true
         label: Slides
         url: https://app.ludus.one/8fc92dec-9989-4a5b-95b2-820140dc7bd5#4
@@ -44,7 +44,7 @@ sections:
     section_id: simplifying-observability-on-regressions
     image: /images/simplifying-observability-on-regressions.png
     actions:
-      - type: link
+      - type: button
         new_window: true
         label: Slides
         url: https://app.ludus.one/4cf64f1a-9fde-4354-814f-4d65c514876a
