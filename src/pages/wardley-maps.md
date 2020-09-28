@@ -2,6 +2,7 @@
 title: Wardley Maps
 hide_title: false
 sections:
+  - type: section_hero
   - type: section_content
     title: Hiring Landscape
     section_id: hiring-landscape
