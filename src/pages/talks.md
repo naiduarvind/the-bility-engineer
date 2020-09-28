@@ -12,5 +12,14 @@ sections:
         new_window: true
         label: Video
         url: https://youtu.be/17azhiILQT8?t=637
+  - type: section_content
+    title: Black Swans of EKS in Production (Day 118)
+    image: /images/black-swans-of-eks-in-production.png
+    actions:
+      - type: button
+        new_window: true
+        label: Slides
+        url: https://www.beautiful.ai/-Lj-73V-Xwa7IoQ7yPcL/1
+    section_id: black-swans-of-eks-in-production-day-118
 template: advanced
 ---
