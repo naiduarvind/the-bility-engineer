@@ -37,8 +37,8 @@
       {
         "type": "link",
         "new_window": false,
-        "label": "Wardley Maps (WIP)",
-        "url": "/maps/"
+        "label": "Wardley Maps",
+        "url": "/wardley-maps/"
       },
       {
         "type": "link",
