@@ -21,5 +21,14 @@ sections:
         label: Slides
         url: https://www.beautiful.ai/-Lj-73V-Xwa7IoQ7yPcL/1
     section_id: black-swans-of-eks-in-production-day-118
+  - type: section_content
+    title: The Journey of Being an SRE
+    section_id: the-journey-of-being-an-sre
+    image: /images/the-journey-of-being-an-sre.png
+    actions:
+      - type: button
+        new_window: true
+        label: Video
+        url: https://youtu.be/N8FI0qoouF8?t=2728
 template: advanced
 ---
