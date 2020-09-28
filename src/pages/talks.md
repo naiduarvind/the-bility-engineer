@@ -30,5 +30,23 @@ sections:
         new_window: true
         label: Video
         url: https://youtu.be/N8FI0qoouF8?t=2728
+  - type: section_content
+    title: Chaos Engineering 101
+    section_id: chaos-engineering-101
+    image: /images/chaos-engineering.png
+    actions:
+      - type: link
+        new_window: true
+        label: Slides
+        url: https://app.ludus.one/8fc92dec-9989-4a5b-95b2-820140dc7bd5#4
+  - type: section_content
+    title: Simplifying Observability on Regressions
+    section_id: simplifying-observability-on-regressions
+    image: /images/simplifying-observability-on-regressions.png
+    actions:
+      - type: link
+        new_window: true
+        label: Slides
+        url: https://app.ludus.one/4cf64f1a-9fde-4354-814f-4d65c514876a
 template: advanced
 ---
