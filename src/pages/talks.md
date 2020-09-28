@@ -12,6 +12,14 @@ sections:
         new_window: true
         label: Video
         url: https://youtu.be/17azhiILQT8?t=637
+    content: |-
+      Official Description:
+
+      Actual Description:
+
+      ### Sources
+
+      ### FAQ
   - type: section_content
     title: Black Swans of EKS in Production (Day 118)
     image: /images/black-swans-of-eks-in-production.png
