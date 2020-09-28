@@ -3,11 +3,17 @@ title: Wardley Maps
 hide_title: false
 sections:
   - type: section_hero
-    content: "[![Wardley Mapping
-      Template](/images/template.png)](https://www.figma.com/file/Oa9DvuPdSpqiq\
-      w2a6qyRj9/Arvind's-Wardley-Mapping-Template)"
-    title: Wardley Mapping Template
-    section_id: wardley-mapping-template
+    content: |-
+      ##### Request for Speaking
+
+      ![](/images/template.png "Wardley Mapping Template")
+    title: ""
+    section_id: ""
+    actions:
+      - type: button
+        new_window: true
+        label: Template Source
+        url: https://www.figma.com/file/Oa9DvuPdSpqiqw2a6qyRj9/Arvind's-Wardley-Mapping-Template
   - type: section_content
     title: Hiring Landscape
     section_id: hiring-landscape
