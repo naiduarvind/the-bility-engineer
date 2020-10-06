@@ -37,6 +37,12 @@
       {
         "type": "link",
         "new_window": false,
+        "label": "Consulting",
+        "url": "/consulting/"
+      },
+      {
+        "type": "link",
+        "new_window": false,
         "label": "Wardley Maps",
         "url": "/wardley-maps/"
       },
@@ -55,8 +61,8 @@
       {
         "type": "link",
         "new_window": true,
-        "label": "Jira",
-        "url": "https://thebilityengineer.atlassian.net/secure/RapidBoard.jspa?projectKey=TBE"
+        "label": "Jira (WIP)",
+        "url": "https://jira.thebility.engineer"
       },
       {
         "type": "link",
