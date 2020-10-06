@@ -29,5 +29,14 @@ sections:
         new_window: true
         label: TribeHired.com
         url: https://tribehired.com
+  - type: section_content
+    title: Tribe Coach
+    section_id: tribecoach
+    image: /images/screenshot-2020-10-06-at-2.29.04-pm.png
+    actions:
+      - type: button
+        new_window: true
+        label: Coach.TribeHired.com
+        url: https://coach.tribehired.com/
 template: advanced
 ---
