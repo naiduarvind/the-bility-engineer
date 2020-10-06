@@ -37,6 +37,12 @@
       {
         "type": "link",
         "new_window": false,
+        "label": "Consulting",
+        "url": "/consulting/"
+      },
+      {
+        "type": "link",
+        "new_window": false,
         "label": "Wardley Maps",
         "url": "/wardley-maps/"
       },
