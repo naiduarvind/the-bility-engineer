@@ -2,6 +2,7 @@
 title: Consulting
 hide_title: false
 sections:
+  - type: section_hero
   - type: section_content
     title: Define Work
     section_id: define-work
