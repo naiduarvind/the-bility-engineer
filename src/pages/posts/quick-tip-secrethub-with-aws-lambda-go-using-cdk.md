@@ -27,7 +27,7 @@ const kmsKey = new kms.Key(this, "KMSKey", {
   removalPolicy: RemovalPolicy.DESTROY,
   trustAccountIdentities: true,
 });
-kmsKey.addAlias("hello-service-key");
+kmsKey.addAlias("<APP_NAME>-service-key");
 kmsKey.grantEncryptDecrypt(lambdaFn);
 ```
 
@@ -35,13 +35,17 @@ kmsKey.grantEncryptDecrypt(lambdaFn);
 func init() {
 	client := secrethub.Must(secrethub.NewClient())
 	var err error
-	username, err = client.Secrets().ReadString("naiduarvind/helloworld/username")
+	username, err = client.Secrets().ReadString("<NAMESPACE>/<REPO>/username")
 	if err != nil {
 		panic(err)
 	}
-	password, err = client.Secrets().ReadString("naiduarvind/helloworld/password")
+	password, err = client.Secrets().ReadString("<NAMESPACE>/<REPO>/password")
 	if err != nil {
 		panic(err)
 	}
 }
+```
+
+```shell
+secrethub service aws init <NAMESPACE>/<REPO> --permission read
 ```
