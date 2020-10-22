@@ -4,7 +4,7 @@ date: 2020-10-22T05:11:04.479Z
 thumb_img_path: /images/secrethub.png
 template: post
 ---
-```go
+```typescript
 ...
 import * as cdk from '@aws-cdk/core';
 import * as kms from '@aws-cdk/aws-kms';
@@ -27,4 +27,19 @@ const kmsKey = new kms.Key(this, "KMSKey", {
 });
 kmsKey.addAlias("hello-service-key");
 kmsKey.grantEncryptDecrypt(lambdaFn);
+```
+
+```go
+func init() {
+	client := secrethub.Must(secrethub.NewClient())
+	var err error
+	username, err = client.Secrets().ReadString("naiduarvind/helloworld/username")
+	if err != nil {
+		panic(err)
+	}
+	password, err = client.Secrets().ReadString("naiduarvind/helloworld/password")
+	if err != nil {
+		panic(err)
+	}
+}
 ```
