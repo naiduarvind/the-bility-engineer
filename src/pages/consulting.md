@@ -2,6 +2,9 @@
 title: Consulting
 hide_title: false
 sections:
+  - type: section_hero
+    content: "##### Request for Consulting"
+    section_id: request-for-consulting
   - type: section_content
     title: Define Work
     section_id: define-work
