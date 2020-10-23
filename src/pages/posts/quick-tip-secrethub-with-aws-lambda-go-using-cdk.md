@@ -13,7 +13,7 @@ The overhead cost of dealing with provisioning and maintenance of a secrets mana
 
 I can't say much for the Enterprise version as I have not used it but you can definitely [get more details here](https://secrethub.io/enterprise/) or [talk to the team](https://secrethub.io/enterprise/contact/) behind it. However, for personal projects -- SecretHub has made its way into my arsenal of tools especially after looking at the [vast amount of integrations](https://secrethub.io/integrations/).
 
-I have decided to write this post as I am working on a project that uses [Lambda](https://aws.amazon.com/lambda/) which is an [adaptation of this document by SecretHub](https://secrethub.io/docs/guides/aws-lambda-go/) but with the provisioning steps declared in [AWS CDK](https://aws.amazon.com/cdk/).
+I have decided to write this post as I am working on a project that uses [Lambda](https://aws.amazon.com/lambda/) which is an [adaptation of this document](https://secrethub.io/docs/guides/aws-lambda-go/) but with the provisioning steps declared in [AWS CDK](https://aws.amazon.com/cdk/).
 
 **Note**: The CDK described here is developed in TypeScript as [support for Go is unavailable](https://github.com/aws/aws-cdk/issues/547) as of the time of this writing (2020/10/23).
 
