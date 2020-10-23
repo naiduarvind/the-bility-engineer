@@ -22,7 +22,15 @@ module.exports = {
         {
             resolve: `gatsby-transformer-remark`,
             options: {
-                plugins: [`gatsby-remark-component`]
+                plugins: [{
+                  resolve: `gatsby-remark-component`,
+                },
+                {
+                  resolve: `gatsby-remark-vscode`,
+                  options: {
+                    theme: 'Abyss' // Or install your favorite theme from GitHub
+                  }
+                }],
             }
         },
         {
