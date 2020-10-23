@@ -20,12 +20,12 @@ project-name
 ├──BUILD.bazel
 ```
 
-```shell
+```
 # General Rules
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 ```
 
-```shell
+```
 # Go Rules
 http_archive(
     name = "io_bazel_rules_go",
@@ -43,7 +43,7 @@ go_rules_dependencies()
 go_register_toolchains()
 ```
 
-```shell
+```
 # Gazelle Rules
 http_archive(
     name = "bazel_gazelle",
@@ -59,7 +59,7 @@ load("@bazel_gazelle//:deps.bzl", "gazelle_dependencies", "go_repository")
 gazelle_dependencies()
 ```
 
-```shell
+```
 # Docker Rules
 http_archive(
     name = "io_bazel_rules_docker",
@@ -96,7 +96,7 @@ container_pull(
 )
 ```
 
-```shell
+```
 # General Rules
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
@@ -166,7 +166,7 @@ container_pull(
 )
 ```
 
-```shell
+```
 load("@bazel_gazelle//:def.bzl", "gazelle")
 
 # gazelle:prefix github.com/$USERNAME/$REPOSITORY
