@@ -57,6 +57,6 @@ func init() {
 }
 ```
 
-```shell
+```sh
 secrethub service aws init <NAMESPACE>/<REPO> --permission read
 ```
