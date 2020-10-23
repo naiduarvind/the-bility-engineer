@@ -9,11 +9,11 @@ template: post
 ---
 ![](/images/screenshot-2020-10-23-at-2.01.35-pm.png "SecretHub")
 
-The overhead cost of dealing with provisioning and maintenance of a secrets management tool has always been high -- especially for a platform team. [SecretHub](https://secrethub.io/) reduces the curve for adoption enabling platform teams to setup and manage secrets ultimately providing better and easier developer experience and a peace of mind for the security team.
+The overhead cost of dealing with provisioning and maintenance of a secrets management tool has always been high -- especially for a platform team. [SecretHub](https://secrethub.io/) reduces the curve for adoption enabling platform teams to setup and manage secrets ultimately providing streamlined developer experience and a peace of mind for the security team.
 
-I can't say much for the Enterprise version as I have not used it but you can definitely [get more details here](https://secrethub.io/enterprise/) or [talk to the team](https://secrethub.io/enterprise/contact/) behind it. However, for personal projects -- SecretHub has made its way into my arsenal of tools especially after looking at the [vast amount of integrations](https://secrethub.io/integrations/).
+I cannot say much for the Enterprise version as I have not used it but you can definitely [get more details here](https://secrethub.io/enterprise/) or [talk to the team](https://secrethub.io/enterprise/contact/) behind it. However, for personal projects -- SecretHub has made its way into my arsenal of tools especially after looking at the [vast set of integrations](https://secrethub.io/integrations/).
 
-I have decided to write this post as I am working on a project that uses [Lambda](https://aws.amazon.com/lambda/) which is an [adaptation of this document](https://secrethub.io/docs/guides/aws-lambda-go/) but with the provisioning steps declared in [AWS CDK](https://aws.amazon.com/cdk/).
+I have decided to write this post as I am working on a project that uses [Lambda](https://aws.amazon.com/lambda/) which is a [follow through of this document](https://secrethub.io/docs/guides/aws-lambda-go/) with the provisioning steps declared using [AWS CDK](https://aws.amazon.com/cdk/).
 
 **Note**: The CDK described here is developed in TypeScript as [support for Go is unavailable](https://github.com/aws/aws-cdk/issues/547) as of the time of this writing (2020/10/23).
 
