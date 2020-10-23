@@ -7,6 +7,8 @@ excerpt: Secrethub -- eliminates the heavyweight provisioning of secrets
   management tool with a seamless developer experience.
 template: post
 ---
+![](/images/screenshot-2020-10-23-at-2.01.35-pm.png "SecretHub")
+
 The overhead cost of dealing with provisioning and maintenance of a secrets management tool has always been high -- especially for a platform team. [SecretHub](https://secrethub.io/) reduces the curve for adoption enabling platform teams to setup and manage secrets ultimately providing better and easier developer experience and a peace of mind for the security team.
 
 I can't say much for the Enterprise version as I have not used it but you can definitely [get more details here](https://secrethub.io/enterprise/) or [talk to the team](https://secrethub.io/enterprise/contact/) behind it. However, for personal projects -- SecretHub has made its way into my arsenal of tools especially after looking at the [vast amount of integrations](https://secrethub.io/integrations/).
