@@ -2,6 +2,8 @@ import React from 'react';
 import _ from 'lodash';
 
 import components, {Layout} from '../components/index';
+import { defineCustomElements as deckDeckGoHighlightElement } from '@deckdeckgo/highlight-code/dist/loader';
+deckDeckGoHighlightElement();
 
 export default class Advanced extends React.Component {
     render() {

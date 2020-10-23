@@ -30,7 +30,6 @@ module.exports = {
                   options: {
                     terminal: 'carbon',
                     theme: 'material',
-                    lineNumbers: true,
                   }
                 }],
             }

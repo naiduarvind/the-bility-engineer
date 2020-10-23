@@ -3,6 +3,8 @@ import _ from 'lodash';
 
 import {Layout} from '../components/index';
 import {htmlToReact, safePrefix} from '../utils';
+import { defineCustomElements as deckDeckGoHighlightElement } from '@deckdeckgo/highlight-code/dist/loader';
+deckDeckGoHighlightElement();
 
 export default class Page extends React.Component {
     render() {

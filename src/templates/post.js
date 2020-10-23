@@ -4,6 +4,8 @@ import moment from 'moment-strftime';
 
 import {Layout} from '../components/index';
 import {htmlToReact, safePrefix} from '../utils';
+import { defineCustomElements as deckDeckGoHighlightElement } from '@deckdeckgo/highlight-code/dist/loader';
+deckDeckGoHighlightElement();
 
 export default class Post extends React.Component {
     render() {
