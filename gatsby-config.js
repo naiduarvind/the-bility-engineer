@@ -6,17 +6,6 @@ module.exports = {
         `gatsby-source-data`,
         `gatsby-plugin-twitter`,
         {
-          resolve: `gatsby-transformer-remark`,
-          options: {
-            plugins: [{
-              resolve: `gatsby-remark-vscode`,
-              options: {
-                theme: 'Abyss' // Or install your favorite theme from GitHub
-              }
-            }]
-          }
-        },
-        {
             resolve: `gatsby-source-filesystem`,
             options: {
                 name: `pages`,
