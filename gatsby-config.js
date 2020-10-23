@@ -26,9 +26,11 @@ module.exports = {
                   resolve: `gatsby-remark-component`,
                 },
                 {
-                  resolve: `gatsby-remark-vscode`,
+                  resolve: `gatsby-remark-highlight-code`,
                   options: {
-                    theme: 'Abyss' // Or install your favorite theme from GitHub
+                    terminal: 'carbon',
+                    theme: 'material',
+                    lineNumbers: true,
                   }
                 }],
             }
