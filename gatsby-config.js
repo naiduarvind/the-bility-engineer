@@ -31,7 +31,18 @@ module.exports = {
                     terminal: 'carbon',
                     theme: 'material',
                   }
-                }],
+                },
+                {
+                  resolve: `gatsby-remark-embed-video`,
+                  options: {
+                    maxWidth: 800,
+                    ratio: 1.77,
+                    height: 320,
+                    related: false,
+                    noIframerder: true,
+                  }
+                }
+              ],
             }
         },
         {

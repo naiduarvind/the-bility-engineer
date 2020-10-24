@@ -8,7 +8,7 @@ template: post
 ---
 > If you’re an executive, and you want to learn what is *likely happening inside your own company* today around your culture of software delivery (and the benefits you’d get by serializing that culture), [this is a must-watch video](https://www.youtube.com/watch?v=d_lFZtlM5KI).
 
-<div style="text-align:center"><a href="https://www.youtube.com/watch?v=d_lFZtlM5KI"><img src="https://img.youtube.com/vi/d_lFZtlM5KI/0.jpg" style="width:640px; height:480px" title="Kelsey Hightower on Spinnaker: Serializing Culture Into Continuous Delivery"></a></div>
+`youtube:https://www.youtube.com/watch?v=d_lFZtlM5KI`
 
 I’m recommending this video because I haven’t seen a good one for a while that reflected how I typically approach understanding an organization within 90 days being in management, and Kelsey presented it in a clear and concise manner.
 
