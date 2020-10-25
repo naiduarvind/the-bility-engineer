@@ -87,7 +87,7 @@ func init() {
 }
 ```
 
-Finally, run the command below to set up SecretHub AWS service account for the `namespace/repo` declared above [as per the documentation](https://secrethub.io/docs/guides/aws-lambda-go/#create-service-account).
+Deploy your CDK stack and finally, run the command below to set up the AWS service account in SecretHub for the `namespace/repo` declared above [as per the documentation](https://secrethub.io/docs/guides/aws-lambda-go/#create-service-account).
 
 ```
 secrethub service aws init <NAMESPACE>/<REPO> --permission read
