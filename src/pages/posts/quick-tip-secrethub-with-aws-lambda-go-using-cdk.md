@@ -9,7 +9,7 @@ template: post
 ---
 ![](/images/screenshot-2020-10-23-at-2.01.35-pm.png "SecretHub")
 
-The overhead cost of dealing with provisioning and maintenance of a secrets management tool has always been high -- especially for a platform team. [SecretHub](https://secrethub.io/) reduces the curve for adoption enabling platform teams to setup and manage secrets ultimately providing streamlined developer experience and a peace of mind for the security team.
+The overhead cost of dealing with provisioning and maintenance of a secrets management tool has always been high -- especially for platform teams. [SecretHub](https://secrethub.io/) reduces the curve for adoption enabling platform teams to setup and manage secrets ultimately providing streamlined developer experience and a peace of mind for the security team.
 
 I cannot say much for the Enterprise version as I have not used it but you can definitely [get more details here](https://secrethub.io/enterprise/) or [talk to the team](https://secrethub.io/enterprise/contact/) behind it. However, for personal projects -- SecretHub has made its way into my arsenal of tools especially after looking at the [vast set of integrations](https://secrethub.io/integrations/).
 
@@ -42,14 +42,44 @@ kmsKey.addAlias("<APP_NAME>-service-key");
 kmsKey.grantEncryptDecrypt(lambdaFn);
 ```
 
+To have SecretHub working with your Lambda (Go), you will have to [add the required environment variable to the Lambda function defined here](https://secrethub.io/docs/guides/aws-lambda-go/#deploy) and [create a KMS key](https://secrethub.io/docs/guides/aws-lambda-go/#create-kms-key) with the [execution role of the Lambda](https://secrethub.io/docs/guides/aws-lambda-go/#create-lambda-executing-role) associated to it. To do so with AWS CDK, the following has to be defined:
+
+1. The required environment variable in the [Lambda Function construct](https://docs.aws.amazon.com/cdk/api/latest/docs/@aws-cdk_aws-lambda.Function.html) in your CDK stack.
+
+   ```typescript
+     environment: {
+       SECRETHUB_IDENTITY_PROVIDER: "aws",
+     }
+   ```
+2. Creation of a customer managed key using the [KMS Key construct](https://docs.aws.amazon.com/cdk/api/latest/docs/@aws-cdk_aws-kms.Key.html) in your CDK stack.
+
+   ```typescript
+   const kmsKey = new kms.Key(this, "KMSKey", {
+     description: "KMS Key used by Secret Hub for Hello World Lambda",
+     removalPolicy: RemovalPolicy.DESTROY,
+     trustAccountIdentities: true,
+   });
+   // REPLACE: `<APP_NAME>-service-key` with an appropriate alias. 
+   kmsKey.addAlias("<APP_NAME>-service-key");
+   ```
+3. Association of the auto-generated Lambda execution role to the customer managed KMS key.
+
+```typescript
+kmsKey.grantEncryptDecrypt(lambdaFn);
+```
+
+Switching to your Go program, simply add the following into your [init function](https://tutorialedge.net/golang/the-go-init-function) which will allow the Lambda function to acquire the KMS key via the execution role and pull the secrets required during execution.
+
 ```go
 func init() {
 	client := secrethub.Must(secrethub.NewClient())
 	var err error
+    // REPLACE: <NAMESPACE>/<REPO>/username with an appropriate path.
 	username, err = client.Secrets().ReadString("<NAMESPACE>/<REPO>/username")
 	if err != nil {
 		panic(err)
 	}
+    // REPLACE: <NAMESPACE>/<REPO>/password with an appropriate path
 	password, err = client.Secrets().ReadString("<NAMESPACE>/<REPO>/password")
 	if err != nil {
 		panic(err)
@@ -57,6 +87,10 @@ func init() {
 }
 ```
 
+Deploy your CDK stack and finally, run the command below to set up the AWS service account in SecretHub for the **<NAMESPACE>*/<REPO>*** declared above [as per the documentation](https://secrethub.io/docs/guides/aws-lambda-go/#create-service-account).
+
 ```
 secrethub service aws init <NAMESPACE>/<REPO> --permission read
 ```
+
+There you have it, securely accessing secrets from SecretHub directly from Lambda function with all steps defined declaratively in AWS CDK!
