@@ -12,10 +12,29 @@ export default class Body extends React.Component {
             <React.Fragment>
                 <Helmet>
                     <title>{_.get(this.props, 'pageContext.frontmatter.title') && _.get(this.props, 'pageContext.frontmatter.title') + ' - '}{_.get(this.props, 'pageContext.site.siteMetadata.title')}</title>
+
+                    {/* Primary Meta Tags */}
                     <meta charSet="utf-8"/>
+                    <meta name="title" content={_.get(this.props, 'pageContext.frontmatter.title') && _.get(this.props, 'pageContext.frontmatter.title') + ' - '}{_.get(this.props, 'pageContext.site.siteMetadata.title')} />
                     <meta name="viewport" content="width=device-width, initialScale=1.0" />
                     <meta name="description" content={_.get(this.props, 'pageContext.frontmatter.excerpt') || _.get(this.props, 'pageContext.site.siteMetadata.description')}/>
-                    <meta property="og:image" content={_.get(this.props, 'pageContext.site.siteMetadata.image')}/>
+
+                    {/* Open Graph / Facebook */}
+                    <meta property="og:type" content="website" />
+                    <meta property="og:url" content="https://thebility.engineer/" />
+                    <meta property="og:title" content={_.get(this.props, 'pageContext.frontmatter.title') && _.get(this.props, 'pageContext.frontmatter.title') + ' - '}{_.get(this.props, 'pageContext.site.siteMetadata.title')}  />
+                    <meta property="og:description" content={_.get(this.props, 'pageContext.frontmatter.excerpt') || _.get(this.props, 'pageContext.site.siteMetadata.description')} />
+                    <meta property="og:image" content={_.get(this.props, 'pageContext.site.siteMetadata.image')} />
+
+                    {/* Twitter */}
+                    <meta property="twitter:card" content="summary_large_image" />
+                    <meta property="twitter:url" content="https://thebility.engineer/" />
+                    <meta property="twitter:title" content={_.get(this.props, 'pageContext.frontmatter.title') && _.get(this.props, 'pageContext.frontmatter.title') + ' - '}{_.get(this.props, 'pageContext.site.siteMetadata.title')}  />
+                    <meta property="twitter:description" content={_.get(this.props, 'pageContext.frontmatter.excerpt') || _.get(this.props, 'pageContext.site.siteMetadata.description')} />
+                    <meta property="twitter:image" content={_.get(this.props, 'pageContext.site.siteMetadata.image')} />
+
+
+                    <meta property="og:image" content=/>
                     <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i&display=swap" rel="stylesheet"/> 
                     <link rel="stylesheet" href={safePrefix('assets/css/main.css')}/>
                     <link rel="stylesheet" href={safePrefix('assets/css/main.css')}/>
