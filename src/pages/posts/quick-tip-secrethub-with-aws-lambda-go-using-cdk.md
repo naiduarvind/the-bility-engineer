@@ -64,9 +64,9 @@ To have SecretHub working with your Lambda (Go), you will have to [add the requi
    ```
 3. Association of the auto-generated Lambda execution role to the customer managed KMS key.
 
-```typescript
-kmsKey.grantEncryptDecrypt(lambdaFn);
-```
+   ```typescript
+   kmsKey.grantEncryptDecrypt(lambdaFn);
+   ```
 
 Switching to your Go program, simply add the following into your [init function](https://tutorialedge.net/golang/the-go-init-function) which will allow the Lambda function to acquire the KMS key via the execution role and pull the secrets required during execution.
 
@@ -87,7 +87,7 @@ func init() {
 }
 ```
 
-Deploy your CDK stack and finally, run the command below to set up the AWS service account in SecretHub for the **<NAMESPACE>*/<REPO>*** declared above [as per the documentation](https://secrethub.io/docs/guides/aws-lambda-go/#create-service-account).
+Deploy your CDK stack and finally, run the command below to set up the AWS service account in SecretHub for the *<NAMESPACE>/<REPO>* declared above [as per the documentation](https://secrethub.io/docs/guides/aws-lambda-go/#create-service-account).
 
 ```
 secrethub service aws init <NAMESPACE>/<REPO> --permission read
