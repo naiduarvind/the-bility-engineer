@@ -24,11 +24,11 @@ export default class Body extends React.Component {
                     <meta property="og:image" content={_.get(this.props, 'pageContext.site.siteMetadata.siteUrl') + _.get(this.props, 'pageContext.frontmatter.thumb_img_path')} />
 
                     {/* <!-- Twitter --> */}
-                    <meta property="twitter:card" content="summary_large_image" />
-                    <meta property="twitter:url" content={_.get(this.props, 'pageContext.frontmatter.canonical_url') || _.get(this.props, 'pageContext.site.siteMetadata.siteUrl')} />
-                    <meta property="twitter:title" content={_.get(this.props, 'pageContext.frontmatter.title') || _.get(this.props, 'pageContext.site.siteMetadata.title')} />
-                    <meta property="twitter:description" content={_.get(this.props, 'pageContext.frontmatter.excerpt') || _.get(this.props, 'pageContext.site.siteMetadata.description')} />
-                    <meta property="twitter:image" content={_.get(this.props, 'pageContext.site.siteMetadata.siteUrl') + _.get(this.props, 'pageContext.frontmatter.thumb_img_path')}/>
+                    <meta name="twitter:card" content="summary_large_image" />
+                    <meta name="twitter:url" content={_.get(this.props, 'pageContext.frontmatter.canonical_url') || _.get(this.props, 'pageContext.site.siteMetadata.siteUrl')} />
+                    <meta name="twitter:title" content={_.get(this.props, 'pageContext.frontmatter.title') || _.get(this.props, 'pageContext.site.siteMetadata.title')} />
+                    <meta name="twitter:description" content={_.get(this.props, 'pageContext.frontmatter.excerpt') || _.get(this.props, 'pageContext.site.siteMetadata.description')} />
+                    <meta name="twitter:image" content={_.get(this.props, 'pageContext.site.siteMetadata.siteUrl') + _.get(this.props, 'pageContext.frontmatter.thumb_img_path')}/>
                     
                     <meta charSet="utf-8"/>
                     <meta name="viewport" content="width=device-width, initialScale=1.0" />
