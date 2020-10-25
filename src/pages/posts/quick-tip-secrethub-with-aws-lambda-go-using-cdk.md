@@ -44,14 +44,14 @@ kmsKey.grantEncryptDecrypt(lambdaFn);
 
 To have SecretHub working with your Lambda, you will have to [add the environment variable to the Lambda function defined here](https://secrethub.io/docs/guides/aws-lambda-go/#deploy) and [create a KMS key](https://secrethub.io/docs/guides/aws-lambda-go/#create-kms-key) with the [execution role of the Lambda](https://secrethub.io/docs/guides/aws-lambda-go/#create-lambda-executing-role) associated to it. To do so with AWS CDK, the following has to be defined:
 
-1. The required environment variable in the Lambda Function construct in your CDK stack.
+1. The required environment variable in the [Lambda Function construct](https://docs.aws.amazon.com/cdk/api/latest/docs/@aws-cdk_aws-lambda.Function.html) in your CDK stack.
 
    ```typescript
      environment: {
        SECRETHUB_IDENTITY_PROVIDER: "aws",
      }
    ```
-2. Creation of a customer managed key using the KMS Key construct in your CDK stack.
+2. Creation of a customer managed key using the [KMS Key construct](https://docs.aws.amazon.com/cdk/api/latest/docs/@aws-cdk_aws-kms.Key.html) in your CDK stack.
 
    ```typescript
    const kmsKey = new kms.Key(this, "KMSKey", {
@@ -68,7 +68,7 @@ To have SecretHub working with your Lambda, you will have to [add the environmen
 kmsKey.grantEncryptDecrypt(lambdaFn);
 ```
 
-In your Go program, simply add the following into your init function which will allow the Lambda function to acquire the KMS key via the execution role and pull the secrets required during execution.
+Switching to your Go program, simply add the following into your [init function](https://tutorialedge.net/golang/the-go-init-function) which will allow the Lambda function to acquire the KMS key via the execution role and pull the secrets required during execution.
 
 ```go
 func init() {
@@ -87,8 +87,10 @@ func init() {
 }
 ```
 
-
+Finally, run the following command to set up SecretHub AWS service account for the `namespace/repo` declared above [as per the documentation](https://secrethub.io/docs/guides/aws-lambda-go/#create-service-account).
 
 ```
 secrethub service aws init <NAMESPACE>/<REPO> --permission read
 ```
+
+There you have it! Securely accessing secrets from SecretHub directly from your Lambda function with all steps defined declaratively in AWS CDK.
