@@ -11,11 +11,27 @@ export default class Body extends React.Component {
         return (
             <React.Fragment>
                 <Helmet>
+                    {/* <!-- Primary Meta Tags --> */}
                     <title>{_.get(this.props, 'pageContext.frontmatter.title') && _.get(this.props, 'pageContext.frontmatter.title') + ' - '}{_.get(this.props, 'pageContext.site.siteMetadata.title')}</title>
+                    <meta name="title" content={_.get(this.props, 'pageContext.frontmatter.title') || _.get(this.props, 'pageContext.site.siteMetadata.title')} />
+                    <meta name="description" content={_.get(this.props, 'pageContext.frontmatter.excerpt') || _.get(this.props, 'pageContext.site.siteMetadata.description')} />
+                    
+                    {/* <!-- Open Graph / Facebook --> */}
+                    <meta property="og:type" content="website" />
+                    <meta property="og:url" content={_.get(this.props, 'pageContext.frontmatter.canonical_url') || _.get(this.props, 'pageContext.site.siteMetadata.siteUrl')} />
+                    <meta property="og:title" content={_.get(this.props, 'pageContext.frontmatter.title') || _.get(this.props, 'pageContext.site.siteMetadata.title')} />
+                    <meta property="og:description" content={_.get(this.props, 'pageContext.frontmatter.excerpt') || _.get(this.props, 'pageContext.site.siteMetadata.description')} />
+                    <meta property="og:image" content={_.get(this.props, 'pageContext.frontmatter.thumb_img_path') || _.get(this.props, 'pageContext.site.siteMetadata.image')} />
+
+                    {/* <!-- Twitter --> */}
+                    <meta property="twitter:card" content="summary_large_image" />
+                    <meta property="twitter:url" content={_.get(this.props, 'pageContext.frontmatter.canonical_url') || _.get(this.props, 'pageContext.site.siteMetadata.siteUrl')} />
+                    <meta property="twitter:title" content={_.get(this.props, 'pageContext.frontmatter.title') || _.get(this.props, 'pageContext.site.siteMetadata.title')} />
+                    <meta property="twitter:description" content={_.get(this.props, 'pageContext.frontmatter.excerpt') || _.get(this.props, 'pageContext.site.siteMetadata.description')} />
+                    <meta property="twitter:image" content={_.get(this.props, 'pageContext.frontmatter.thumb_img_path') || _.get(this.props, 'pageContext.site.siteMetadata.image')} />
+                    
                     <meta charSet="utf-8"/>
                     <meta name="viewport" content="width=device-width, initialScale=1.0" />
-                    <meta name="description" content={_.get(this.props, 'pageContext.frontmatter.excerpt') || _.get(this.props, 'pageContext.site.siteMetadata.description')}/>
-                    <meta property="og:image" content={_.get(this.props, 'pageContext.site.siteMetadata.image')}/>
                     <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i&display=swap" rel="stylesheet"/> 
                     <link rel="stylesheet" href={safePrefix('assets/css/main.css')}/>
                     <link rel="stylesheet" href={safePrefix('assets/css/main.css')}/>
