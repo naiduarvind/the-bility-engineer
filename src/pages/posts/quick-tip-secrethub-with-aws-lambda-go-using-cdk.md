@@ -93,4 +93,4 @@ Deploy your CDK stack and finally, run the command below to set up the AWS servi
 secrethub service aws init <NAMESPACE>/<REPO> --permission read
 ```
 
-There you have it -- securely accessing secrets from SecretHub directly from your Lambda function with all steps defined declaratively in AWS CDK!
+There you have it, securely accessing secrets from SecretHub directly from Lambda function with all steps defined declaratively in AWS CDK!
