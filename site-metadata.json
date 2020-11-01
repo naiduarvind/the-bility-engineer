@@ -31,20 +31,20 @@
       {
         "type": "link",
         "new_window": false,
-        "label": "Talks",
-        "url": "/talks/"
-      },
-      {
-        "type": "link",
-        "new_window": false,
         "label": "Consulting",
         "url": "/consulting/"
       },
       {
         "type": "link",
+        "new_window": true,
+        "label": "Teaching",
+        "url": "https://opsteacherpage.com/t/arvind-naidu"
+      },
+      {
+        "type": "link",
         "new_window": false,
-        "label": "Wardley Maps",
-        "url": "/wardley-maps/"
+        "label": "Talks",
+        "url": "/talks/"
       },
       {
         "type": "link",
@@ -69,6 +69,12 @@
         "new_window": true,
         "label": "Resume",
         "url": "https://resume.thebility.engineer"
+      },
+      {
+        "type": "link",
+        "new_window": false,
+        "label": "Wardley Maps",
+        "url": "/wardley-maps/"
       },
       {
         "label": "Contact",
